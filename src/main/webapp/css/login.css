@@ -1,0 +1,201 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.titpic{
+	background: #00a0d8;
+    height: 86px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tit{
+	width: 1000px;
+	height: 28px;
+	margin: 0 auto;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 28px;
+	text-align: center;
+}
+.tit span{
+	height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 40px;
+    background: #fff;
+    text-align: center;
+}
+.login{
+    margin:10px auto;
+    width: 500px;
+    box-sizing: border-box;
+}
+.inputbox div>input{
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #aaa;
+    font-size: 14px;
+    padding: 10px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.remember span{
+    color: #bbb;
+    margin-left: 10px;
+    margin-right: 200px;
+}
+.remember{
+    font-size: 13px;
+    color: #555;
+    margin: 10px 0;
+}
+.textfix{
+    margin: 6px 0;
+    font-size: 12px;
+    min-height: 20px;
+    line-height: 20px;
+}
+.type-tab{
+    margin-bottom: 20px;
+}
+.btn-box .btn-login{
+    border: 1px solid #0381aa;
+    color: #fff;
+    background-color: #00a7de;
+}
+.btn-box .btn{
+    display: inline-block;
+    margin-right: 50px;
+    height: 53px;
+    border-radius: 2px;
+    width: 184px;
+    border: 1px solid #ccc;
+    line-height: 38px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+.type-tab span{
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 0;
+    margin-right: 20px;
+}
+.sns {
+    padding: 12px 0;
+    font-size: 12px;
+}
+.sns>a{
+     color: #717171;
+     padding-right: 56px;
+}
+.sns .return{
+    color: #FB7299;
+    padding:0 0 0 60px;
+}
+span.active {
+    color: #02a7de;
+}
+a:hover{
+    color: #02a7de;
+}
+
+
+
+
+.inputbox{
+    margin: 10px auto;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.registertitle>span{
+    font-size: 20px;
+    color: #000000;
+}
+.registertitle a span{
+    font-size: 14px;
+    color: #000000;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+}
+.info div{
+    margin:25px 0; 
+}
+.final{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    background: #FB7299;
+}
+.sun {
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    border-radius: 25px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.sun::before {
+    animation: scale 2s infinite linear;
+}
+.sun::after {
+    animation: scale 2s 1s infinite linear;
+}
+.sun::before  {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:#02a7de;
+    border-radius: 25px;
+}
+.sun::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:#FB7299;
+    border-radius: 25px;
+}
+@keyframes scale {
+           /* 0%{
+                transform: scale(1);
+            } 
+            50% {
+                transform: scale(2);
+            }*/
+            100% {
+                transform: scale(3);
+                opacity: 0;
+            }
+        }
+        
+        /*动画序列*/
+        @keyframes move {
+            0% {
+                bottom: -20px;
+            }
+
+            50% {
+                bottom: -40px;
+            }
+
+            100% {
+                bottom: -60px;
+            }
+        }
